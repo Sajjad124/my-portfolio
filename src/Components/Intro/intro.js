@@ -3,6 +3,13 @@ import "./intro.css";
 import Github from "../../img/github.png";
 import Linkedin from "../../img/linkedin.png";
 import Instagram from "../../img/instagram.png";
+import Vector1 from "../../img/Vector1.png";
+import Vector2 from "../../img/Vector2.png";
+import Sajjad1 from "../../img/sajjad1.png";
+import Sajjad2 from "../../img/sajjad2.png";
+import thumbup from "../../img/thumbup.png";
+import Crown from "../../img/crown.png";
+import glassesimoji from "../../img/glassesimoji.png";
 
 const intro = () => {
   return (
@@ -18,21 +25,22 @@ const intro = () => {
         </div>
         <button className="button i-button">Hire me</button>
         <div className="i-icons">
-          <a>
-            {" "}
+          <a href="">
             <img src={Github} alt=""></img>
           </a>
-          <a>
-            {" "}
+          <a href="">
             <img src={Linkedin} alt=""></img>
           </a>
-          <a>
-            {" "}
+          <a href="">
             <img src={Instagram} alt=""></img>
           </a>
         </div>
       </div>
-      <div className="i-right">i am right side</div>
+      <div className="i-right">
+        <img src={Vector1} alt=""></img>
+        <img src={Vector2} alt=""></img>
+        <img src={Sajjad1} alt=""></img>
+      </div>
     </div>
   );
 };
