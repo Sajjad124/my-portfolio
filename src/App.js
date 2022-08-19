@@ -22,4 +22,7 @@ function App() {
   );
 }
 
+
+
+// Portfolio with reactjs, useState Hook, useContext Hook, IconScout, Framer Motion, react smooth scroll, CSS3, Email js, Swiper js
 export default App;
