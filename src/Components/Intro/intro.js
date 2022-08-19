@@ -18,9 +18,18 @@ const intro = () => {
         </div>
         <button className="button i-button">Hire me</button>
         <div className="i-icons">
-          <img src={Github} alt=""></img>
-          <img src={Linkedin} alt=""></img>
-          <img src={Instagram} alt=""></img>
+          <a>
+            {" "}
+            <img src={Github} alt=""></img>
+          </a>
+          <a>
+            {" "}
+            <img src={Linkedin} alt=""></img>
+          </a>
+          <a>
+            {" "}
+            <img src={Instagram} alt=""></img>
+          </a>
         </div>
       </div>
       <div className="i-right">i am right side</div>
