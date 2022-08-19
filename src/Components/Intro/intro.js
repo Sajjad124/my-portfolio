@@ -1,5 +1,6 @@
 import React from "react";
 import "./intro.css";
+import FloatingDiv from "../FloatingDiv/FloatingDiv";
 import Github from "../../img/github.png";
 import Linkedin from "../../img/linkedin.png";
 import Instagram from "../../img/instagram.png";
@@ -10,7 +11,7 @@ import Sajjad2 from "../../img/sajjad2.png";
 import thumbup from "../../img/thumbup.png";
 import Crown from "../../img/crown.png";
 import glassesimoji from "../../img/glassesimoji.png";
-
+import Boy from "../../img/boy.png";
 const intro = () => {
   return (
     <div className="intro">
@@ -39,7 +40,10 @@ const intro = () => {
       <div className="i-right">
         <img src={Vector1} alt=""></img>
         <img src={Vector2} alt=""></img>
-        <img src={Sajjad1} alt=""></img>
+        <img src={Boy} alt=""></img>
+        <div>
+          <FloatingDiv />
+        </div>
       </div>
     </div>
   );
