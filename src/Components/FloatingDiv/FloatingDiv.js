@@ -1,13 +1,12 @@
 import React from "react";
 
-const FloatingDiv = () => {
-  return( 
-  <div className="FloatingDiv">
-  <img/>
-  <span></span>
-  </div>
-  
-  )
+const FloatingDiv = (image) => {
+  return (
+    <div className="FloatingDiv">
+      <img src={image} alt="" />
+      <span></span>
+    </div>
+  );
 };
 
 export default FloatingDiv;

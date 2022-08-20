@@ -40,13 +40,9 @@ const intro = () => {
       <div className="i-right">
         <img src={Vector1} alt=""></img>
         <img src={Vector2} alt=""></img>
-        <img
-          src={Boy}
-          // style={{ width: "300px", height: "400px"}}
-          alt=""
-        ></img>
+        <img src={Boy} alt=""></img>
         <div>
-          <FloatingDiv />
+          <FloatingDiv image={Crown}/>
         </div>
       </div>
     </div>
