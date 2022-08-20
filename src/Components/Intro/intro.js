@@ -42,7 +42,7 @@ const intro = () => {
         <img src={Vector2} alt=""></img>
         <img src={Boy} alt=""></img>
         <div>
-          <FloatingDiv image={Crown}/>
+          <FloatingDiv image={Crown} txt1="Web" txt2="Developer" />
         </div>
       </div>
     </div>
