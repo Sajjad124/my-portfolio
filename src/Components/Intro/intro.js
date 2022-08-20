@@ -42,7 +42,7 @@ const intro = () => {
         <img src={Vector2} alt=""></img>
         <img
           src={Sajjad1}
-          style={{ width: "300px", height: "300px",}}
+          style={{ width: "300px", height: "300px"}}
           alt=""
         ></img>
         <div>
