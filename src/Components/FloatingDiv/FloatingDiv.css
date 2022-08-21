@@ -5,8 +5,8 @@
   box-shadow: var(--boxShadow);
   border-radius: 17px;
   align-items: center;
+  height: 4.5rem;
   padding: 0px 28px 0px 0px;
-  width: 200px;
 }
 .floatingDiv > img {
   transform: scale(0.4);

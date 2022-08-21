@@ -41,8 +41,12 @@ const intro = () => {
         <img src={Vector1} alt=""></img>
         <img src={Vector2} alt=""></img>
         <img src={Boy} alt=""></img>
-        <div style={{top:'-4%', left: '68%'}}>
+        <img src={glassesimoji} alt=""></img>
+        <div style={{ top: "-4%", left: "68%" }}>
           <FloatingDiv image={Crown} txt1="Web" txt2="Developer" />
+        </div>
+        <div style={{ top: "18rem", left: "0rem" }}>
+          <FloatingDiv image={thumbup} txt1="Best Design" txt2="Award" />
         </div>
       </div>
     </div>
