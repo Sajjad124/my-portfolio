@@ -20,3 +20,13 @@
   font-size: 2rem;
   font-weight: bold;
 }
+.awesome > :nth-child(3) {
+  color: var(--grey);
+  font-size: 14px;
+  margin-top: 1rem;
+}
+.s-button{
+    width: 8rem;
+    height: 2rem;
+    margin-top: 1rem;
+}

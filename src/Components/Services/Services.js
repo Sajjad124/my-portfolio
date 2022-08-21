@@ -1,5 +1,6 @@
 import React from "react";
 import "./Services.css";
+import Card from "../Card/Card";
 import HeartEmoji from "../../img/heartemoji.png";
 import Glasses from "../../img/glasses.png";
 import Humble from "../../img/humble.png";
@@ -17,10 +18,18 @@ const Services = () => {
           lorem ipsum is simpley a text of printing
         </span>
         <button className="button s-button">Download CV</button>
-        <div className="blur s-blur1" style={{background:"#ABF1FF94",}}></div>
+        <div className="blur s-blur1" style={{ background: "#ABF1FF94" }}></div>
       </div>
       {/* right side */}
-      <div className="cards"> I am the right side</div>
+      <div className="cards">
+        <div>
+          <Card
+            emoji={HeartEmoji}
+            heading={"Design"}
+            detail={"Canva,Photoshop,StarUml, Figma, Framers"}
+          />
+        </div>
+      </div>
     </div>
   );
 };
