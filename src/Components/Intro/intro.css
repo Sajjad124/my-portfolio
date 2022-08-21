@@ -70,9 +70,21 @@
   left: 28%;
 }
 .i-right > :nth-child(4) {
-  transform: scale(0.2);
+  transform: scale(0.5);
   top: -19%;
   left: -24%;
   border-radius: 50%;
   padding: 0;
+}
+.blur{
+  position: absolute;
+  width: 22rem;
+  height: 14rem;
+  border-radius: 50%;
+  background: #edd0ff;
+   filter: blur(72px);
+  z-index: -9; 
+  top: -18%;
+  left: 56%;
+
 }
