@@ -43,9 +43,13 @@ const Services = () => {
           <Card
             emoji={Humble}
             heading={"Android"}
-            detail={"Android,FrontEnd, Backend,"}
+            detail={"Android,FrontEnd, Backend, API, Google Map"}
           />
         </div>
+        <div
+          className="blur s-blur2"
+          style={{ backgroud: "var(--purple)" }}
+        ></div>
       </div>
     </div>
   );
