@@ -4,6 +4,7 @@ import Card from "../Card/Card";
 import HeartEmoji from "../../img/heartemoji.png";
 import Glasses from "../../img/glasses.png";
 import Humble from "../../img/humble.png";
+import Resume from "./Sajjad-Resume.pdf";
 
 const Services = () => {
   return (
@@ -17,7 +18,9 @@ const Services = () => {
           <br />
           lorem ipsum is simpley a text of printing
         </span>
-        <button className="button s-button">Download CV</button>
+        <a href={Resume} download>
+          <button className="button s-button">Download CV</button>
+        </a>
         <div className="blur s-blur1" style={{ background: "#ABF1FF94" }}></div>
       </div>
       {/* right side */}
