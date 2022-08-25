@@ -23,7 +23,7 @@
 .i-name > :nth-child(2) {
   color: var(--orange);
   font-weight: bold;
-  font-size: 3rem;
+  font-size: 3.5rem;
 }
 .i-name > :nth-child(3) {
   color: var(--grey);
