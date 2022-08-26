@@ -38,18 +38,19 @@
   left: 15rem;
 }
 .t-mainCircle > :nth-child(5) {
-  top: 13rem;
+  top: 14rem;
   left: 6rem;
 }
 .t-secCircle {
   position: absolute;
   width: 6rem;
   height: 6rem;
-  background: white;
+  background: white();
   border-radius: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+   border: 1px solid var(--yellow); 
   box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
 }
 .t-secCircle > img {
@@ -59,4 +60,12 @@
   position: absolute;
   height: 13rem;
   width: 13rem;
+  border-radius: 100%;
+  z-index: 1;
+}
+.blueCircle {
+  background: rgb(135, 98, 52);
+}
+.yellowCircle {
+  background: rgb(112, 177, 98);
 }
