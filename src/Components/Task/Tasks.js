@@ -1,10 +1,10 @@
 import React from "react";
 import "./Tasks.css";
-import upwork from "..//..//img//Upwork.png";
-import amazon from "..//..//img//amazon.png";
-import fiverr from "..//..//img//fiverr.png";
-import shopify from "..//..//img//Shopify.png";
-import facebook from "..//..//img//Facebook.png";
+import upwork from "../../img/Upwork.png";
+import amazon from "../../img/amazon.png";
+import fiverr from "../../img/fiverr.png";
+import shopify from "../../img/Shopify.png";
+import facebook from "../../img/Facebook.png";
 
 const Tasks = () => {
   return (
@@ -19,6 +19,29 @@ const Tasks = () => {
         </span>
         <button className="button s-button">HIre me</button>
         <div className="blur s-blur1" style={{ background: "#ABF1FF94" }}></div>
+      </div>
+      {/* right side */}
+      <div className="t-right">
+        <div className="t-mainCircle">
+          <div className="t-secCircle">
+            <img src={upwork} alt="" />
+          </div>
+          <div className="t-secCircle">
+            <img src={fiverr} alt="" />
+          </div>
+          <div className="t-secCircle">
+            <img src={amazon} alt="" />
+          </div>
+          <div className="t-secCircle">
+            <img src={shopify} alt="" />
+          </div>
+          <div className="t-secCircle">
+            <img src={facebook} alt="" />
+          </div>
+        </div>
+        {/* back cirlce */}
+        <div className="t-backCircle blueCircle"></div>
+        <div className="t-backCircle yellowCircle"></div>
       </div>
     </div>
   );
