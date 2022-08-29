@@ -6,8 +6,8 @@ import Linkedin from "../../img/linkedin.png";
 import Instagram from "../../img/instagram.png";
 import Vector1 from "../../img/Vector1.png";
 import Vector2 from "../../img/Vector2.png";
-import Sajjad1 from "../../img/sajjad1.png";
-import Sajjad2 from "../../img/sajjad2.png";
+// import Sajjad1 from "../../img/sajjad1.png";
+// import Sajjad2 from "../../img/sajjad2.png";
 import thumbup from "../../img/thumbup.png";
 import Crown from "../../img/crown.png";
 import glassesimoji from "../../img/glassesimoji.png";
@@ -26,13 +26,13 @@ const intro = () => {
         </div>
         <button className="button i-button">Hire me</button>
         <div className="i-icons">
-          <a href="">
+          <a href>
             <img src={Github} alt=""></img>
           </a>
-          <a href="">
+          <a href>
             <img src={Linkedin} alt=""></img>
           </a>
-          <a href="">
+          <a href>
             <img src={Instagram} alt=""></img>
           </a>
         </div>
