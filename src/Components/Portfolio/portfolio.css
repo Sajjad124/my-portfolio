@@ -1,24 +1,22 @@
-.portfolio {
+.slider {
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
-  height: 70vh;
-  margin-top: 14rem;
+  text-align: center;
+  
 }
-.portfolio span:nth-last-of-type(2) {
+.slider span:nth-last-of-type(2) {
   color: var(--black);
   font-size: 2rem;
   font-weight: bold;
 }
-.portfolio span:nth-last-of-type(1) {
+.slider span:nth-last-of-type(1) {
   color: var(--orange);
   font-size: 2.5rem;
   font-weight: bold;
 }
-/* .portfolio .swiper {
+.portfolio .swiper {
   overflow: visible !important;
-} */
+}
 .portfolio-slider {
   margin-top: 3rem;
   width: 100%;

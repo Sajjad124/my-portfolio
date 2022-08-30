@@ -11,27 +11,28 @@ import "react-slideshow-image/dist/styles.css";
 
 const slideImages = [
   {
-    url: "../../img/musicapp.png",
+    url: MusicApp,
     caption: "Slide 1",
   },
   {
-    url: { Ecommerce },
+    url: Ecommerce,
     caption: "Slide 2",
   },
   {
-    url: { MusicApp },
+    url: Hoc,
     caption: "Slide 3",
   },
 ];
 
 const portfolio = () => {
   return (
-    <div className="">
+    <div className="slider">
+      <span>Recent Projects</span>
+      <span>Portfolio</span>
       <Slide>
         {slideImages.map((slideImage, index) => (
           <div className="each-slide" key={index}>
-            {/* <div style={{ backgroundImage: `url(${slideImage.url})` }}> */}
-            <img src={MusicApp} />
+            <img src={slideImage.url} alt="" />
             <span>{slideImage.caption}</span>
           </div>
         ))}
