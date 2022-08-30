@@ -12,15 +12,15 @@ import "react-slideshow-image/dist/styles.css";
 const slideImages = [
   {
     url: MusicApp,
-    caption: "Slide 1",
+    caption: "Music App",
   },
   {
     url: Ecommerce,
-    caption: "Slide 2",
+    caption: "Ecommerce",
   },
   {
     url: Hoc,
-    caption: "Slide 3",
+    caption: "Hoc Work",
   },
 ];
 
@@ -33,7 +33,7 @@ const portfolio = () => {
         {slideImages.map((slideImage, index) => (
           <div className="each-slide" key={index}>
             <img src={slideImage.url} alt="" />
-            <span>{slideImage.caption}</span>
+            <h3>{slideImage.caption}</h3>
           </div>
         ))}
       </Slide>
