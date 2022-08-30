@@ -1,5 +1,4 @@
 import React from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
 import "./portfolio.css";
 import SideBar from "../../img/sidebar.png";
 import Hoc from "../../img/hoc.png";
@@ -21,6 +20,10 @@ const slideImages = [
   {
     url: Hoc,
     caption: "Hoc Work",
+  },
+  {
+    url: SideBar,
+    caption: "Side Bar",
   },
 ];
 
