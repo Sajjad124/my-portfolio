@@ -1,4 +1,5 @@
 import React from "react";
+import "./Testimonial.css";
 import profile1 from "../../img/profile1.jpg";
 import profile2 from "../../img/profile2.jpg";
 import profile3 from "../../img/profile3.jpg";
@@ -40,7 +41,7 @@ const Testimonial = () => {
   return (
     <div className="t-wrap">
       <div className="t-headings">
-        <span>Testimonial </span>
+        <span className="head">Testimonial </span>
         <div
           className="blur t-blur1"
           style={{ background: "var(--purple)" }}
@@ -53,7 +54,7 @@ const Testimonial = () => {
           {clients.map((client, index) => (
             <div className="each-slide" key={index}>
               <img src={client.img} alt="" />
-              <h3>{client.c_reviews}</h3>
+              <span>{client.c_reviews}</span>
             </div>
           ))}
         </Slide>

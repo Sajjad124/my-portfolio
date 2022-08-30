@@ -1,0 +1,18 @@
+.t-wrap {
+  padding: 0 3rem 0 3rem;
+  /* display: flex; */
+  /* flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+  justify-content: center;
+  align-items: center;
+}
+.each-slide {
+  text-align: justify;
+}
+
+.head {
+  color: var(--black);
+  font-size: 1.7rem;
+  font-weight: bold;
+}
