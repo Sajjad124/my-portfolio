@@ -35,10 +35,22 @@ const Testimonial = () => {
         {slideImages.map((slideImage, index) => (
           <div className="all-slide" key={index}>
             <img src={slideImage.url} alt="" />
-            <div>
-              dfdfdffffffffffffffffffffffffffffffffffffffff
-              dfdfdffffffffffffffffffffffffffffffffffffffffsdfsfs
-            </div>
+            <span
+              style={{
+                color: "black",
+                fontSize: "20px",
+                textAlign: "justify",
+                padding: "50px",
+              }}
+            >
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+              mollitia, molestiae quas vel sint commodi repudiandae consequuntur
+              voluptatcum laborum numquam blanditiis harum quisquam eius sed
+              odit fugiat iusto fuga praesentium optio, eaque rerum! Provident
+              similique accusantium nemo autem. Veritatis obcaecati tenetur iure
+              eius earum ut molestias architecto voluptate aliquam nihil,
+              eveniet aliquid culpa officia aut! Impedit sit sunt quaerat,
+            </span>
           </div>
         ))}
       </Slide>
