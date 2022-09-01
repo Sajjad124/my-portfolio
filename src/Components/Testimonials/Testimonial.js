@@ -53,7 +53,7 @@ const clients = [
 
 const Testimonial = () => {
   return (
-    <div>
+    <div className="main">
       <div className="head">Testimonial</div>
       <div className="t-slider">
         <Slide>
