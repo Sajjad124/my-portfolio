@@ -7,53 +7,64 @@ import MusicApp from "../../img/musicapp.png";
 import "react-slideshow-image/dist/styles.css";
 import { Slide } from "react-slideshow-image";
 import "react-slideshow-image/dist/styles.css";
+import profile1 from "..//..//img/profile1.jpg";
+import profile2 from "..//..//img/profile2.jpg";
+import profile3 from "..//..//img/profile3.jpg";
+import profile4 from "..//..//img/profile4.jpg";
+import profile5 from "..//..//img/profile5.jpg";
 
-const slideImages = [
+const clients = [
   {
-    url: MusicApp,
-    caption: "Music App",
+    url: profile1,
+    caption: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+    mollitia, molestiae quas vel sint commodi repudiandae consequuntur
+    voluptatcum laborum numquam blanditiis harum quisquam eius sed
+    odit fugiat iusto fuga praesentium optio,`,
   },
   {
-    url: Ecommerce,
-    caption: "Ecommerce",
+    url: profile2,
+    caption: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+    mollitia, molestiae quas vel sint commodi repudiandae consequuntur
+    voluptatcum laborum numquam blanditiis harum quisquam eius sed
+    odit fugiat iusto fuga praesentium optio,`,
   },
   {
-    url: Hoc,
-    caption: "Hoc Work",
+    url: profile3,
+    caption: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+    mollitia, molestiae quas vel sint commodi repudiandae consequuntur
+    voluptatcum laborum numquam blanditiis harum quisquam eius sed
+    odit fugiat iusto fuga praesentium optio,`,
   },
   {
-    url: SideBar,
-    caption: "Side Bar",
+    url: profile4,
+    caption: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+    mollitia, molestiae quas vel sint commodi repudiandae consequuntur
+    voluptatcum laborum numquam blanditiis harum quisquam eius sed
+    odit fugiat iusto fuga praesentium optio,`,
+  },
+  {
+    url: profile5,
+    caption: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+    mollitia, molestiae quas vel sint commodi repudiandae consequuntur
+    voluptatcum laborum numquam blanditiis harum quisquam eius sed
+    odit fugiat iusto fuga praesentium optio,`,
   },
 ];
 
 const Testimonial = () => {
   return (
-    <div className="t-slider">
-      <span>Testimonial</span>
-      <Slide>
-        {slideImages.map((slideImage, index) => (
-          <div className="all-slide" key={index}>
-            <img src={slideImage.url} alt="" />
-            <span
-              style={{
-                color: "black",
-                fontSize: "20px",
-                textAlign: "justify",
-                padding: "50px",
-              }}
-            >
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-              mollitia, molestiae quas vel sint commodi repudiandae consequuntur
-              voluptatcum laborum numquam blanditiis harum quisquam eius sed
-              odit fugiat iusto fuga praesentium optio, eaque rerum! Provident
-              similique accusantium nemo autem. Veritatis obcaecati tenetur iure
-              eius earum ut molestias architecto voluptate aliquam nihil,
-              eveniet aliquid culpa officia aut! Impedit sit sunt quaerat,
-            </span>
-          </div>
-        ))}
-      </Slide>
+    <div>
+      <div className="head">Testimonial</div>
+      <div className="t-slider">
+        <Slide>
+          {clients.map((client, index) => (
+            <div className="all-slide" key={index}>
+              <img src={client.url} alt="" />
+              <span>{client.caption}</span>
+            </div>
+          ))}
+        </Slide>
+      </div>
     </div>
   );
 };
