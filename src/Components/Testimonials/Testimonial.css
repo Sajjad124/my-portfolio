@@ -38,7 +38,7 @@ t-slider {
   justify-content: center;
   margin-top: 7rem;
   flex-direction: column;
-  gap: 2rem;
+  gap: 3rem;
   position: relative;
 }
 .all-slide {
