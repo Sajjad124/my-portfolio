@@ -1,10 +1,5 @@
 import React from "react";
 import "./Testimonial.css";
-import SideBar from "../../img/sidebar.png";
-import Hoc from "../../img/hoc.png";
-import Ecommerce from "../../img/ecommerce.png";
-import MusicApp from "../../img/musicapp.png";
-import "react-slideshow-image/dist/styles.css";
 import { Slide } from "react-slideshow-image";
 import "react-slideshow-image/dist/styles.css";
 import profile1 from "..//..//img/profile1.jpg";
