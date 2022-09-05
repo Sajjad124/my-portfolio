@@ -25,7 +25,7 @@ const Contact = () => {
           ></input>
           <textarea
             name="message"
-            className="message"
+            className="user"
             placeholder="enter your message here..."
           ></textarea>
           <input type="submit" value="send" className="button"></input>
