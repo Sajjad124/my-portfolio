@@ -2,27 +2,7 @@ import React from "react";
 import "./Contact.css";
 
 const Contact = () => {
-    const form = useRef();
-  
-    const sendEmail = (e) => {
-      e.preventDefault();
-  
-      emailjs
-        .sendForm(
-          "service_d19u2fc",
-          "YOUR_TEMPLATE_ID",
-          form.current,
-          "YOUR_PUBLIC_KEY"
-        )
-        .then(
-          (result) => {
-            console.log(result.text);
-          },
-          (error) => {
-            console.log(error.text);
-          }
-        );
-  
+    
     return (
         <div className="c-form">
       <div className="c-left">
@@ -30,7 +10,7 @@ const Contact = () => {
         <span>Contact me</span>
         <div className="blur c-blur1" style={{ background: "#ABF1FF94" }}></div>
       </div>
-      <div className="c-right">
+      <div className="c-right"></div>
         <form>
           <input
             type="text"
