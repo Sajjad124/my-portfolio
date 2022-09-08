@@ -1,5 +1,6 @@
 import React from "react";
 import "./Testimonial.css";
+import "react-slideshow-image/dist/styles.css";
 import { Slide } from "react-slideshow-image";
 import "react-slideshow-image/dist/styles.css";
 import profile1 from "..//..//img/profile1.jpg";

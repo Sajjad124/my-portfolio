@@ -1,31 +1,30 @@
-import React, { useRef } from "react";
+import React from "react";
 import "./Contact.css";
-import emailjs from "@emailjs/browser";
 
 const Contact = () => {
-  const form = useRef();
-
-  const sendEmail = (e) => {
-    e.preventDefault();
-
-    emailjs
-      .sendForm(
-        "service_d19u2fc",
-        "YOUR_TEMPLATE_ID",
-        form.current,
-        "YOUR_PUBLIC_KEY"
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
-  };
-  return (
-    <div className="c-form">
+    const form = useRef();
+  
+    const sendEmail = (e) => {
+      e.preventDefault();
+  
+      emailjs
+        .sendForm(
+          "service_d19u2fc",
+          "YOUR_TEMPLATE_ID",
+          form.current,
+          "YOUR_PUBLIC_KEY"
+        )
+        .then(
+          (result) => {
+            console.log(result.text);
+          },
+          (error) => {
+            console.log(error.text);
+          }
+        );
+  
+    return (
+        <div className="c-form">
       <div className="c-left">
         <span>Get in touch</span>
         <span>Contact me</span>
@@ -57,8 +56,6 @@ const Contact = () => {
           ></div>
         </form>
       </div>
-    </div>
-  );
-};
-
-export default Contact;
+      
+    );
+}

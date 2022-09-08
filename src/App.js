@@ -7,8 +7,6 @@ import Experience from "./Components/Experience/Experience";
 import Tasks from "./Components/Task/Tasks";
 import Portfolio from "./Components/Portfolio/portfolio";
 import Testimonial from "./Components/Testimonials/Testimonial";
-import Contact from "./Components/Contact/Contact";
-
 function App() {
   return (
     <div className="App">
@@ -18,8 +16,7 @@ function App() {
       <Experience />
       <Tasks />
       <Portfolio />
-      <Testimonial />
-      <Contact />
+      <Testimonial/>
     </div>
   );
 }
