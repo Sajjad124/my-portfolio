@@ -31,10 +31,10 @@
   flex-direction: column;
   gap: 2rem;
   align-items: center;
-  /* background: rgba(0, 0, 0, 0.7); */
+  /* background: rgba(0, 0, 0, 0.7);  */
   padding: 1rem;
   border-radius: 8px;
-  /* border: 1px solid grey; */
+  border: 1px solid grey; 
 }
 .c-right .user {
   width: 20rem;
