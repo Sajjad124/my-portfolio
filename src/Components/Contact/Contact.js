@@ -56,7 +56,7 @@ const Contact = () => {
             className="user"
             placeholder="your message here"
           />
-          <input type="submit" value="send" className="button" />
+          <input type="submit" value="Send it" className="button" />
           <div
             className="blur c-blur2"
             style={{ background: "var(--purple)" }}
