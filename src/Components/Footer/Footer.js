@@ -1,6 +1,8 @@
 import React from "react";
 import wave from "../../img/wave.png";
 import insta from "@iconscout/react-unicons/icons/uil-instagram";
+import insta from "@iconscout/react-unicons/icons/uil-facebook";
+import insta from "@iconscout/react-unicons/icons/uil-GitHub";
 
 const Footer = () => {
   return (
