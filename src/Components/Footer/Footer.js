@@ -11,7 +11,7 @@ const Footer = () => {
       <div className="f-content">
         <span>SajjadSaroya6@gmail.com</span>
         <div className="f-icons">
-          <Insta color="orange" size="3rem" />
+          <Insta color="white" size="3rem" />
           <Facebook color="white" size="3rem" />
           <Github color="white" size="3rem" />
           <span>Sajjad</span>
