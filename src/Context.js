@@ -3,7 +3,7 @@ import { act } from "react-dom/test-utils";
 import toggle from "./Components/Toggle/Toggle";
 export const themeContext = createContext();
 
-const initialState = { darkMode: true };
+const initialState = { darkMode: false };
 
 const themeReducer = (state, action) => {
   switch (action.type) {
