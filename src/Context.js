@@ -1,6 +1,6 @@
 import React, { createContext, useReducer } from "react";
-import { act } from "react-dom/test-utils";
-import toggle from "./Components/Toggle/Toggle";
+// import { act } from "react-dom/test-utils";
+// import toggle from "./Components/Toggle/Toggle";
 export const themeContext = createContext();
 
 const initialState = { darkMode: false };

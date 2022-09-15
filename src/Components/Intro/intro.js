@@ -6,8 +6,8 @@ import Linkedin from "../../img/linkedin.png";
 import Instagram from "../../img/instagram.png";
 import Vector1 from "../../img/Vector1.png";
 import Vector2 from "../../img/Vector2.png";
-// import Sajjad1 from "../../img/sajjad1.png";
-// import Sajjad2 from "../../img/sajjad2.png";
+import Sajjad1 from "../../img/sajjad1.png";
+import Sajjad2 from "../../img/sajjad2.png";
 import thumbup from "../../img/thumbup.png";
 import Crown from "../../img/crown.png";
 import glassesimoji from "../../img/glassesimoji.png";
@@ -41,8 +41,8 @@ const intro = () => {
         <img src={Vector1} alt=""></img>
         <img src={Vector2} alt=""></img>
         <img
-          src={Boy}
-          // style={{ width: "300px", height: "360px", left: "17%" }}
+          src={Sajjad2}
+          style={{ width: "320px", height: "450px", left: "19%" }}
           alt=""
         ></img>
         <img src={glassesimoji} alt=""></img>
