@@ -8,7 +8,7 @@
   cursor: pointer;
 }
 .toggle > * {
-  width: 1rem;
+  width: 1.5rem;
   height: 1rem;
   color: var(--orange);
 }
