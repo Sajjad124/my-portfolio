@@ -12,6 +12,7 @@ import thumbup from "../../img/thumbup.png";
 import Crown from "../../img/crown.png";
 import glassesimoji from "../../img/glassesimoji.png";
 import Boy from "../../img/boy.png";
+
 const intro = () => {
   return (
     <div className="intro">
