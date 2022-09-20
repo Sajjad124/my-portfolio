@@ -5,6 +5,7 @@ import HeartEmoji from "../../img/heartemoji.png";
 import Glasses from "../../img/glasses.png";
 import Humble from "../../img/humble.png";
 import Resume from "./Sajjad-Resume.pdf";
+import { motion } from "framer-motion/dist/framer-motion";
 
 const Services = () => {
   return (
