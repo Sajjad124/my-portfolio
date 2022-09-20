@@ -8,6 +8,7 @@ import Resume from "./Sajjad-Resume.pdf";
 import { motion } from "framer-motion/dist/framer-motion";
 
 const Services = () => {
+  const transtion = { duration: 2, type: "spring" };
   return (
     <div className="services">
       {/* left side */}
