@@ -6,16 +6,16 @@ import Linkedin from "../../img/linkedin.png";
 import Instagram from "../../img/instagram.png";
 import Vector1 from "../../img/Vector1.png";
 import Vector2 from "../../img/Vector2.png";
-import Sajjad1 from "../../img/sajjad1.png";
+// import Sajjad1 from "../../img/sajjad1.png";
 import Sajjad2 from "../../img/sajjad2.png";
 import thumbup from "../../img/thumbup.png";
 import Crown from "../../img/crown.png";
 import glassesimoji from "../../img/glassesimoji.png";
-import Boy from "../../img/boy.png";
+// import Boy from "../../img/boy.png";
 import { motion } from "framer-motion/dist/framer-motion";
 
 const intro = () => {
-  const transtion = { duration: 2, type: "spring", ease: "easeOut" };
+  const transtion = { duration: 1, type: "spring", ease: "easeOut" };
 
   return (
     <div className="intro">
@@ -51,14 +51,14 @@ const intro = () => {
         ></img>
         <motion.img
           initial={{ left: "-36%" }}
-          whileInView={{ left: "-24%" }}
+          whileInView={{ left: "-27%" }}
           transtion={transtion}
           src={glassesimoji}
           alt=""
         />
         <motion.div
           initial={{ left: "-74%", top: "-4%" }}
-          whileInView={{ left: "68%" }}
+          whileInView={{ left: "60%" }}
           transtion={transtion}
           style={{ top: "-4%", left: "68%" }}
         >
@@ -66,7 +66,7 @@ const intro = () => {
         </motion.div>
         <motion.div
           initial={{ left: "9rem", top: "18rem" }}
-          whileInView={{ left: "0rem" }}
+          whileInView={{ left: "-5rem" }}
           transtion={{ transtion }}
           style={{ top: "18rem", left: "0rem" }}
         >
