@@ -8,7 +8,7 @@ import Resume from "./Sajjad-Resume.pdf";
 import { motion } from "framer-motion/dist/framer-motion";
 
 const Services = () => {
-  const transtion = { duration: 2, type: "spring", ease: "easeOut" };
+  const transtion = { duration: 1, type: "spring", ease: "easeOut" };
 
   return (
     <div className="services">
@@ -28,20 +28,30 @@ const Services = () => {
       </div>
       {/* right side */}
       <div className="cards">
-        <div style={{ left: "14rem" }}>
+        <motion.div
+          initial={{ left: "25%" }}
+          whileInView={{ left: "14rem" }}
+          transtion={transtion}
+          style={{ left: "14rem" }}
+        >
           <Card
             emoji={HeartEmoji}
             heading={"Design"}
             detail={"Canva,Photoshop,StarUml, Figma, Framers"}
           />
-        </div>
-        <div style={{ left: "-4rem", top: "12rem" }}>
+        </motion.div>
+        <motion.div
+          // initial={{ left: "25%" }}
+          // whileInView={{ left: "14rem" }}
+          // transtion={transtion}
+          style={{ left: "-4rem", top: "12rem" }}
+        >
           <Card
             emoji={Glasses}
             heading={"Developer"}
             detail={"HTML,CSS,JavaScript, React, ES6, MySQL"}
           />
-        </div>
+        </motion.div>
         <div style={{ left: "12rem", top: "19rem" }}>
           <Card
             emoji={Humble}
