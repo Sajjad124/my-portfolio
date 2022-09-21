@@ -30,7 +30,7 @@ const Services = () => {
       <div className="cards">
         <motion.div
           initial={{ left: "25%" }}
-          whileInView={{ left: "14rem" }}
+          whileInView={{ left: "16rem" }}
           transtion={transtion}
           style={{ left: "14rem" }}
         >
@@ -52,13 +52,18 @@ const Services = () => {
             detail={"HTML,CSS,JavaScript, React, ES6, MySQL"}
           />
         </motion.div>
-        <div style={{ left: "12rem", top: "19rem" }}>
+        <motion.div
+          initial={{ right: "25%" }}
+          whileInView={{ left: "14rem" }}
+          transtion={transtion}
+          style={{ left: "12rem", top: "19rem" }}
+        >
           <Card
             emoji={Humble}
             heading={"Android"}
             detail={"Android,FrontEnd, Backend, API, Google Map"}
           />
-        </div>
+        </motion.div>
         <div
           className="blur s-blur2"
           style={{ backgroud: "var(--purple)" }}
