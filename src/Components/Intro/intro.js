@@ -15,7 +15,7 @@ import Boy from "../../img/boy.png";
 import { motion } from "framer-motion/dist/framer-motion";
 
 const intro = () => {
-  const transtion = { duration: 2, type: "spring" };
+  const transtion = { duration: 2, type: "spring", ease: "easeOut" };
 
   return (
     <div className="intro">
