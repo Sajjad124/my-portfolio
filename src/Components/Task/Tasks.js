@@ -5,6 +5,7 @@ import amazon from "../../img/amazon.png";
 import fiverr from "../../img/fiverr.png";
 import shopify from "../../img/Shopify.png";
 import facebook from "../../img/Facebook.png";
+import { motion } from "framer-motion/dist/framer-motion";
 
 const Tasks = () => {
   return (
@@ -22,7 +23,13 @@ const Tasks = () => {
       </div>
       {/* right side */}
       <div className="t-right">
-        <div className="t-mainCircle">
+        <motion.div
+          initial={{ rotate: 45 }}
+          whileInView={{ rotate: 0 }}
+          vieeport={{ margin: "-40px" }}
+          transtion={{ duration: 3.5, type: "spring", ease: "easeout" }}
+          className="t-mainCircle"
+        >
           <div className="t-secCircle">
             <img src={upwork} alt="" />
           </div>
@@ -38,7 +45,7 @@ const Tasks = () => {
           <div className="t-secCircle">
             <img src={facebook} alt="" />
           </div>
-        </div>
+        </motion.div>
         {/* back cirlce */}
         <div className="t-backCircle blueCircle"></div>
         <div className="t-backCircle yellowCircle"></div>
