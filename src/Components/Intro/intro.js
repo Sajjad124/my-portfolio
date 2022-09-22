@@ -64,7 +64,7 @@ const intro = () => {
         </motion.div>
         <motion.div
           initial={{ left: "9rem", top: "18rem" }}
-          whileInView={{ left: "-5rem" }}
+          whileInView={{ left: "-5.5rem" }}
           transtion={{ transtion }}
           style={{ top: "18rem", left: "0rem" }}
         >
