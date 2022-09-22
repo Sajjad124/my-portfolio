@@ -46,7 +46,7 @@ const Tasks = () => {
             <img src={facebook} alt="" />
           </div>
         </motion.div>
-        {/* back cirlce */}
+
         <div className="t-backCircle blueCircle"></div>
         <div className="t-backCircle yellowCircle"></div>
       </div>
