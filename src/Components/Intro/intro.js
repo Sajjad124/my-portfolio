@@ -23,7 +23,7 @@ const intro = () => {
           <span>Sajjad</span>
           <span>
             Reactjs Developer with high levelof experience in web designing and
-            development, producting the quaility work
+            development, producting the quaility work.
           </span>
         </div>
         <button className="button i-button">Hire me</button>
