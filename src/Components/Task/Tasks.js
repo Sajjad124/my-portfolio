@@ -6,6 +6,7 @@ import fiverr from "../../img/fiverr.png";
 import shopify from "../../img/Shopify.png";
 import facebook from "../../img/Facebook.png";
 import { motion } from "framer-motion/dist/framer-motion";
+import {Link} from "react-scroll";
 
 const Tasks = () => {
   return (
