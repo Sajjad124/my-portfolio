@@ -29,7 +29,7 @@ const slideImages = [
 
 const portfolio = () => {
   return (
-    <div className="slider">
+    <div className="slider" id="Portfolio">
       <span>Recent Projects</span>
       <span>Portfolio</span>
       <Slide>
@@ -45,4 +45,3 @@ const portfolio = () => {
 };
 
 export default portfolio;
-

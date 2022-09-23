@@ -27,11 +27,12 @@
   display: flex;
   gap: 2rem;
   margin-right: 3rem;
+  cursor: pointer;
 }
 .n-list > ul > li:hover {
   cursor: pointer;
   color: var(--orange);
 }
-.n-button{
+.n-button {
   flex: 2;
 }

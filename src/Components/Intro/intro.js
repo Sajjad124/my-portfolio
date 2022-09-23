@@ -16,7 +16,7 @@ const intro = () => {
   const transtion = { duration: 1, type: "spring", ease: "easeOut" };
 
   return (
-    <div className="intro">
+    <div className="intro" id="Navbar">
       <div className="i-left">
         <div className="i-name">
           <span>Hi! I Am </span>

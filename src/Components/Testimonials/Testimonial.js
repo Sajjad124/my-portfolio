@@ -49,7 +49,7 @@ const clients = [
 
 const Testimonial = () => {
   return (
-    <div className="main">
+    <div className="main" id="Testimonials">
       <div className="head">Testimonial</div>
       <div className="t-slider">
         <Slide>

@@ -6,11 +6,11 @@ import fiverr from "../../img/fiverr.png";
 import shopify from "../../img/Shopify.png";
 import facebook from "../../img/Facebook.png";
 import { motion } from "framer-motion/dist/framer-motion";
-import {Link} from "react-scroll";
+import { Link } from "react-scroll";
 
 const Tasks = () => {
   return (
-    <div className="tasks">
+    <div className="tasks" id="Tasks">
       <div className="awesome">
         <span>Tasks Done for </span>
         <span>Our Clients</span>
