@@ -59,7 +59,9 @@ export const Navbar = () => {
             </Link>
           </ul>
         </div>
-        <button className="button n-button">Contact</button>
+        <Link spy={true} to="Contact" activeClass="activeClass" smooth={true}>
+          <button className="button n-button">Contact</button>
+        </Link>
       </div>
     </div>
   );
