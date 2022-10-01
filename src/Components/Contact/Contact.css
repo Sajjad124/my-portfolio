@@ -5,7 +5,7 @@
 }
 .c-left > :nth-child(1) {
   color: var(--black);
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: bold;
 }
 .c-left > :nth-child(2) {
@@ -17,7 +17,7 @@
 .c-form {
   padding: 0 3rem 0 3rem;
   height: 80vh;
-  margin-top: 4rem;
+  margin-top: 5rem;
   display: flex;
 }
 .c-right {
