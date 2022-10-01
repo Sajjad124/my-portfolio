@@ -5,7 +5,7 @@
 }
 .c-left > :nth-child(1) {
   color: var(--black);
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: bold;
 }
 .c-left > :nth-child(2) {
