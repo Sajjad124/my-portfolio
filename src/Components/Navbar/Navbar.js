@@ -37,7 +37,7 @@ export const Navbar = () => {
               smooth={true}
             >
               {" "}
-              <li>Experiences</li>
+              <li>Experience</li>
             </Link>
             <Link
               spy={true}
