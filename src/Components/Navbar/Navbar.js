@@ -55,7 +55,7 @@ export const Navbar = () => {
               smooth={true}
             >
               {" "}
-              <li>Testimonial</li>
+              <li>Testimonials</li>
             </Link>
           </ul>
         </div>
