@@ -20,9 +20,9 @@ const intro = () => {
       <div className="i-left">
         <div className="i-name">
           <span>Hi! I Am </span>
-          <span>Sajjad</span>
+          <span>Sajjad Saroya</span>
           <span>
-            Reactjs Developer with high levelof experience in web designing and
+            Reactjs Developer with high level of experience in web designing and
             development, producting the quaility work.
           </span>
         </div>
