@@ -7,7 +7,7 @@ export const Navbar = () => {
   return (
     <div className="n-wrapper" id="Navbar">
       <div className="n-left">
-        <div className="n-name">Sajjad</div>
+        <div className="n-name">Sajjad Saroya</div>
         <Toggle />
       </div>
       <div className="n-right">
