@@ -14,13 +14,16 @@ const Footer = () => {
       <div className="f-content">
         <span>SajjadSaroya6@gmail.com</span>
         <div className="f-icons">
-          <a href="https://www.instagram.com/sajjad_saroya/">
+          <a
+            title="go to instagram profile"
+            href="https://www.instagram.com/sajjad_saroya/"
+          >
             <Insta size="3rem" />
           </a>
-          <a href="">
+          <a href="" title="go to facbook profile">
             <Facebook color="white" size="3rem" />
           </a>
-          <a title="go to linkedin profile" href="https://github.com/Sajjad124">
+          <a title="go to Github profile" href="https://github.com/Sajjad124">
             <Github color="white" size="3rem" />
           </a>
           <a
