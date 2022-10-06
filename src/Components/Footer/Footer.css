@@ -20,3 +20,7 @@
   display: flex;
   gap: 2rem;
 }
+.f-icons a {
+  color: white;
+  
+}
