@@ -30,7 +30,7 @@ const Footer = () => {
             title="go to linkedin profile"
             href="https://pk.linkedin.com/in/sajjad-saroya-1a7359238?trk=people-guest_people_search-card"
           >
-            <Linkedin color="white" size="3rem" />
+            <Linkedin color="white" size="2rem" />
           </a>
         </div>
       </div>
