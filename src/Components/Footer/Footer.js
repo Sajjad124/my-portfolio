@@ -18,13 +18,13 @@ const Footer = () => {
             title="go to instagram profile"
             href="https://www.instagram.com/sajjad_saroya/"
           >
-            <Insta size="3rem" />
+            <Insta size="2rem" />
           </a>
           <a href="" title="go to facbook profile">
-            <Facebook color="white" size="3rem" />
+            <Facebook color="white" size="2rem" />
           </a>
           <a title="go to Github profile" href="https://github.com/Sajjad124">
-            <Github color="white" size="3rem" />
+            <Github color="white" size="2rem" />
           </a>
           <a
             title="go to linkedin profile"
