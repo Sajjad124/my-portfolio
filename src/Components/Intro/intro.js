@@ -24,6 +24,7 @@ const intro = () => {
           <span>
             Reactjs Developer with high level of experience in web designing and
             development, producting the quaility work.
+            I have complete many projects in reactjs.
           </span>
         </div>
         <button className="button i-button">Hire me</button>
