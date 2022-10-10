@@ -33,6 +33,9 @@ const Footer = () => {
             <Linkedin color="white" size="3rem" />
           </a>
         </div>
+        <div>
+          <h2>Contact</h2>
+        </div>
       </div>
     </div>
   );
