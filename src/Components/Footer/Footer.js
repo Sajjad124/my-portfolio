@@ -3,7 +3,6 @@ import wave from "../../img/wave.png";
 import Insta from "@iconscout/react-unicons/icons/uil-instagram";
 import Facebook from "@iconscout/react-unicons/icons/uil-facebook";
 import Linkedin from "@iconscout/react-unicons/icons/uil-linkedin";
-
 import Github from "@iconscout/react-unicons/icons/uil-github";
 import "./Footer.css";
 
