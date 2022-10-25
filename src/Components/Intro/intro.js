@@ -39,7 +39,7 @@ const intro = () => {
           <a href>
             <img src={Instagram} alt=""></img>
           </a>
-          
+          😔
         </div>
       </div>
       <div className="i-right">
