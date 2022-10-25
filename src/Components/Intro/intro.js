@@ -39,9 +39,9 @@ const intro = () => {
           <a href>
             <img src={Instagram} alt=""></img>
           </a>
-          <a href>
+          {/* <a href>
             <img src={Instagram} alt=""></img>
-          </a>
+          </a> */}
         </div>
       </div>
       <div className="i-right">
