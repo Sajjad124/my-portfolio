@@ -24,8 +24,8 @@ const intro = () => {
           <span>
             Reactjs Developer with high level of experience in web designing and
             development, producting the quaility work. I have complete many
-            projects in reactjs. Now am working to experience my skills in
-            Computer Networking.
+            projects in reactjs as a MERN Stack Developer. Now am working to
+            experience my skills in Computer Networking.
           </span>
         </div>
         <button className="button i-button">Hire me</button>
