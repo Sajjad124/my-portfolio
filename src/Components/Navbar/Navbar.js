@@ -57,6 +57,15 @@ export const Navbar = () => {
               {" "}
               <li>Testimonials</li>
             </Link>
+            <Link
+              spy={true}
+              to="Contact"
+              activeClass="activeClass"
+              smooth={true}
+            >
+              {" "}
+              <li>Contact Us</li>
+            </Link>
           </ul>
         </div>
         <Link spy={true} to="Contact" activeClass="activeClass" smooth={true}>
