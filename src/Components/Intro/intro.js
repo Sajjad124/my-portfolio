@@ -25,7 +25,8 @@ const intro = () => {
             Reactjs Developer with high level of experience in web designing and
             development, producting the quaility work. I have complete many
             projects in reactjs as a MERN Stack Developer. Like UI designing in
-            Reactjs, HTML, CSS, bootstrap etc.
+            Reactjs, HTML, CSS, bootstrap etc. And Currently am working in
+            Networking Field.
           </span>
         </div>
         <button className="button i-button">Hire me</button>
