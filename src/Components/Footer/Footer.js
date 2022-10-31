@@ -19,7 +19,7 @@ const Footer = () => {
           >
             <Insta size="3rem" />
           </a>
-          <a href="" title="go to facbook profile">
+          <a href="go to facebook profile" title="go to facbook profile">
             <Facebook color="white" size="3rem" />
           </a>
           <a title="go to Github profile" href="https://github.com/Sajjad124">
